@@ -20,6 +20,14 @@ NOTE : the password is password123
 2. user hit protected resources  after login
   ### A. hit job list. 
    - hit job list, with no existing data in database.
+   - run this query
+    INSERT INTO `dns-multi-pro`.job
+(id, job_description, job_name)
+VALUES(1, 'Software engineer', 'Junior Software engineer');
+INSERT INTO `dns-multi-pro`.job
+(id, job_description, job_name)
+VALUES(2, 'Project Manager', 'Project Manager');
+
    - hit job list, with existing data in database.
    ### B. hit job api, get by id.
    - get job by id, with id not found in table.
