@@ -10,7 +10,7 @@ INSERT INTO `dns-multi-pro`.`user` (id,address,email,name,password,`role`,user_n
 VALUES (1,'Jakarta Selatan','aminturmudzi@gmail.com','amin','$2a$10$HjMnse/X1QdIwZ8aH.G8KONdz4wUPo/53bW/NI5/8Kjo3YkBcVm5W','ADMIN','admin1');
 4. run main class
 NOTE : the password is password123
-#How to test the api
+# How to test the api
 first scenario
 1. user hit login url without enter username and password
 2. user hit login url and insert not valid(username and password)
