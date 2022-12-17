@@ -18,9 +18,9 @@ NOTE : the password is password123
 ## second scenario
 1. user hit protected api without login
 2. user hit protected resources  after login
-   a. hit job list 
-   - hit job list, with no existing data in database
-   - hit job list, with existing data in database
-   b. hit job api, get by id
-   		- get job by id, with id not found in table
-      - get job by id, with exist data in table
+   A. hit job list. 
+   - hit job list, with no existing data in database.
+   - hit job list, with existing data in database.
+   B. hit job api, get by id.
+   - get job by id, with id not found in table.
+   - get job by id, with exist data in table.
