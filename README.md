@@ -11,11 +11,11 @@ VALUES (1,'Jakarta Selatan','aminturmudzi@gmail.com','amin','$2a$10$HjMnse/X1QdI
 4. run main class
 NOTE : the password is password123
 # How to test the api
-first scenario
+## first scenario
 1. user hit login url without enter username and password
 2. user hit login url and insert not valid(username and password)
 3. user hit login url using valid username and password
-second scenario
+## second scenario
 1. user hit protected api without login
 2. user hit protected resources  after login
    a. hit job list 
