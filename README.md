@@ -1,5 +1,5 @@
 # dnsproject
-This project describe how to Login and get jwt, after jwt generated. User can Access Protected Resources Using JWT
+This project describe how to Login and get jwt. After jwt generated. User can Access Protected Resources Using JWT
 
 How to run this project
 1. import the project into intellij idea/other idea
