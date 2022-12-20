@@ -19,7 +19,7 @@ NOTE : the password is password123
 1. user hit protected api without login
 2. user hit protected resources  after login
   ### A. hit job list. 
-   - hit job list, with existing data external API.
+   - hit job list, with existing jobs list in external API.
    ### B. hit job get by id.
    - get job by id, with id not found in external API.
    - get job by id, with exist data in external API.
